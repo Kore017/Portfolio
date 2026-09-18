@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import main; print\\('Backend imports cleanly!'\\)\")",
+      "Bash(python -m pip list)",
+      "Bash(curl -X POST http://localhost:8000/api/v1/screening/evaluate -H \"Content-Type: application/json\" -d '{\"age_months\": 96, \"language\": \"hi_IN\", \"oculomotor_metrics\": {\"fixation_duration_mean_ms\": 385.0, \"regressive_saccades_ratio\": 0.38, \"fixation_stability_index\": 0.65, \"blink_frequency_per_min\": 15.0}, \"phonetic_metrics\": {\"onset_latency_ms\": 1120.0, \"phoneme_duration_ratio\": 1.2, \"vocal_energy_jitter\": 0.12, \"stumble_count\": 3}, \"motor_metrics\": {\"velocity_variance\": 50.0, \"normalized_jerk\": 3.42, \"baseline_deviation_px\": 24.5, \"stroke_reversals_count\": 2}}')",
+      "Bash(curl -s http://localhost:8000/api/v1/gis/clusters?district=pune)",
+      "Bash(python -m json.tool)",
+      "Bash(echo '{ *)",
+      "Bash(python main.py)",
+      "Bash(python -m http.server 8080)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(node -e \"const icons = require\\('lucide-react'\\); const names = Object.keys\\(icons\\).filter\\(k => k.toLowerCase\\(\\).includes\\('git'\\) || k.toLowerCase\\(\\).includes\\('linked'\\)\\); console.log\\(names.join\\(', '\\)\\)\")",
+      "Bash(taskkill /F /PID 20260)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
