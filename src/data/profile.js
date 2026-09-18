@@ -12,10 +12,11 @@ software that solves real problems. I enjoy working across the full stack — fr
 clean user interfaces to designing robust backend systems. I'm also deeply interested in
 AI and automation, and I love exploring how technology can be used to make workflows
 smarter and more efficient.`,
-  // TODO: Replace these with your actual URLs
   email: 'jaykore21@gmail.com',
   github: 'https://github.com/Kore017',
   linkedin: 'https://www.linkedin.com/in/jay-kore-3372032b5/',
+  instagram: 'https://instagram.com/Kore017',
+  snapchat: 'https://snapchat.com/add/Kore017',
   resumePath: '/resume.pdf',
 };
 

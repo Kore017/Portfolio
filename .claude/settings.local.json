@@ -17,7 +17,18 @@
       "Bash(node -e \"const icons = require\\('lucide-react'\\); const names = Object.keys\\(icons\\).filter\\(k => k.toLowerCase\\(\\).includes\\('git'\\) || k.toLowerCase\\(\\).includes\\('linked'\\)\\); console.log\\(names.join\\(', '\\)\\)\")",
       "Bash(taskkill /F /PID 20260)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git config *)",
+      "Bash(git commit -m 'Initial commit: Jay Kore portfolio website *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(gh repo *)",
+      "Bash(vercel --yes)",
+      "Bash(vercel login *)",
+      "Bash(vercel deploy *)",
+      "Bash(vercel alias *)",
+      "Bash(git commit -m 'Add Instagram and Snapchat social links *)"
     ]
   }
 }

@@ -1,5 +1,5 @@
 import { Mail, Heart } from 'lucide-react';
-import { GitHubIcon, LinkedInIcon } from './SocialIcons';
+import { GitHubIcon, LinkedInIcon, InstagramIcon, SnapchatIcon } from './SocialIcons';
 import { profile } from '../data/profile';
 
 export default function Footer() {
@@ -34,6 +34,24 @@ export default function Footer() {
               aria-label="LinkedIn"
             >
               <LinkedInIcon size={18} />
+            </a>
+            <a
+              href={profile.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full p-2 text-slate-500 transition-colors hover:bg-dark-700 hover:text-accent"
+              aria-label="Instagram"
+            >
+              <InstagramIcon size={18} />
+            </a>
+            <a
+              href={profile.snapchat}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full p-2 text-slate-500 transition-colors hover:bg-dark-700 hover:text-accent"
+              aria-label="Snapchat"
+            >
+              <SnapchatIcon size={18} />
             </a>
             <a
               href={`mailto:${profile.email}`}
